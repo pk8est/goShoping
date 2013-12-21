@@ -12,6 +12,10 @@ return array(
 	// preloading 'log' component
 	'preload'=>array('log'),
 
+	'aliases'=>array( 
+		'bootstrap'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..'.'/extensions/bootstrap',
+   	), 
+
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
@@ -25,10 +29,15 @@ return array(
 			'password'=>'admin',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
-			'generatorPaths'=>array('application.gii'), 
+			'generatorPaths' => array(
+	          	'bootstrap.gii'
+	        ),
+			//'generatorPaths'=>array('application.gii'), 
 		),
 	),
-
+	'preload' => array(
+	    'bootstrap',
+	 ),
 	// application components
 	'components'=>array(
 		'user'=>array(
@@ -56,6 +65,11 @@ return array(
 			'password' => '',
 			'charset' => 'utf8',
 			'tablePrefix' => 'gs_',
+		),
+
+		'bootstrap' => array(
+		    'class' => 'ext.bootstrap.components.Bootstrap',
+		    'responsiveCss' => true,
 		),
 		
 		'errorHandler'=>array(

@@ -1,5 +1,9 @@
 <?php
 /* @var $this SiteController */
+$this->widget('bootstrap.widgets.TbButton',array(
+    'label' => '主要',
+    'type' => 'primary',
+));
 
 $this->pageTitle=Yii::app()->name;
 ?>
