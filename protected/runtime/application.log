@@ -1,0 +1,10 @@
+2013/12/20 03:37:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'go_shoping.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+in D:\www\web\goShoping\index.php (13)
+2013/12/20 03:37:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'go_shoping.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+in D:\www\web\goShoping\index.php (13)
+2013/12/20 04:25:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'go_shoping.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in D:\www\web\goShoping\index.php (13)
+2013/12/20 04:25:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'go_shoping.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in D:\www\web\goShoping\index.php (13)
+2013/12/20 04:25:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'go_shoping.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in D:\www\web\goShoping\index.php (13)
